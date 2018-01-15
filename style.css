@@ -1,0 +1,102 @@
+stylesheet codehtml{
+ height: 100%;
+}
+
+body{
+ width: 800px;
+ margin: 0 auto;
+ padding-top: 5px;
+ height: 1000px;
+}
+
+header{
+ color: white;
+ background-color: black;
+ text-align: center;
+ padding: 5px;
+ font-size: 20px;
+ display: block;
+ width: 790px;
+ border-style: groove;
+ border-width: thick;
+ border-color: blue;
+}
+
+nav{
+ line-height: 30px;
+ background-color: #eeeeee ;
+ min-height: 100%;
+ width: 130px;
+ display: inline-block;
+ font-size: 16px;
+ padding: 5px;
+ font-family: cursive;
+ border-style: double;
+ border-width: thick;
+ border-color: blue;
+ position: absolute;
+ top: 8em;
+}
+
+nav ul{
+ list-style-type: circle;
+}
+
+a{
+ color: blue;
+}
+
+p{
+ padding: 20px;
+}
+
+#pic1{
+ height: 150px;
+ width: 600px;
+ border-style: double;
+ border-width: thick;
+ border-color: blue;
+}
+
+#pic2{
+ height: 150px;
+ width: 600px;
+ border-style: double;
+ border-width: thick;
+ border-color: blue;
+}
+
+#aboutpic{
+ height: 150px;
+ width: 600px;
+ border-style: double;
+ border-width: thick;
+ border-color: blue;
+}
+
+#Team{
+ text-align: center;
+}
+
+section{
+ width: 600px;
+ display: inline-block;
+ padding: 5px;
+ font-style: oblique;
+ position: absolute;
+ top: 10em;
+ left: 450px;
+}
+
+footer{
+ width: 800px;
+ background-color: black;
+ color: white;
+ display: block;
+ text-align: center;
+ border-style: double;
+ border-width: thick;
+ border-color: blue;
+ position: fixed;
+ bottom: 0px;
+}
